@@ -7,7 +7,7 @@ public:
     SubscriberNode() : Node("subscriber_node")
     {
         subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "/chatter",
+            "/counter",
             10,
             std::bind(&SubscriberNode::topic_callback, this, std::placeholders::_1)
         );

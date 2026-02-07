@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>assignment-ros2-c-subscriber-node-meghanamodiyam-oss</name>
+  <name>ros2_subscriber</name>
   <version>0.0.0</version>
   <description>ROS2 C++ Subscriber Assignment</description>
 
-  <maintainer email="meghana@example.com">Meghana</maintainer>
+  <maintainer email="you@example.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
